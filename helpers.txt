@@ -1,0 +1,32 @@
+######## COMANDOS NPM #######
+
+Criar projeto:
+→ npx create-react-app . (caso queira usar com o nome da pasta que está usa-se o ponto ".", caso queira criar uma pasta com o nome, troca-se o ponto pelo nome desejado)
+
+Iniciar aplicação no navegador:
+→ npm start
+
+Instalar aplicações de  desenvolvimento:
+→ npm i eslint babel-eslint --save-dev
+
+Configurar o Eslint:
+→ npx eslint --init
+
+ Nas perguntas responder:
+ What type of modules does your project use? · esm
+√ Which framework does your project use? · react
+√ Does your project use TypeScript? · No / Yes
+√ Where does your code run? · browser
+√ How would you like to define a style for your project? · guide
+√ Which style guide do you want to follow? · airbnb
+√ What format do you want your config file to be in? · JavaScript
+Checking peerDependencies of eslint-config-airbnb@latest
+The config that you've selected requires the following dependencies:
+
+eslint-plugin-react@^7.28.0 eslint-config-airbnb@latest eslint@^7.32.0 || ^8.2.0 eslint-plugin-import@^2.25.3 eslint-plugin-jsx-a11y@^6.5.1 eslint-plugin-react-hooks@^4.3.0
+? Would you like to install them now? » No / Yes
+ Which package manager do you want to use? · npm
+
+
+ Instalar biblioteca de ícones React:
+ → npm i react-icons
