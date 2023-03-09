@@ -29,5 +29,7 @@ module.exports = {
     "react-hooks/exhaustive-deps": "warn",
     "react/state-in-constructor": 0,
     "no-unused-vars": 0,
+    "react/forbid-prop-types": 0,
+    "import/no-extraneous-dependencies": 0,
   },
 };
